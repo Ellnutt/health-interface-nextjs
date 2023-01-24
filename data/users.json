@@ -1,0 +1,53 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"name": "Jane Doe",
+			"relationship": {
+				"title": "Mother",
+				"phone": "123456789",
+				"email": "janedoe@example.com"
+			},
+			"doctors": {
+				"primaryCarePhysician": "Dr. English (lgi)",
+				"specialist": "Dr. Oliver(LGI)"
+			},
+			"medications": ["Asprin", "Metformin", "Lisinopril"],
+			"health_issues": [
+				"Diabetes",
+				"Pacemaker",
+				"Congential Heart Defect"
+			]
+		},
+		{
+			"id": "2",
+			"name": "John Smith",
+			"relationship": {
+				"title": "Father",
+				"phone": "098765432",
+				"email": "johnsmith@example.com"
+			},
+			"doctors": {
+				"primaryCarePhysician": "Dr. John (lgi)",
+				"specialist": "Dr. Mick(LGI)"
+			},
+			"medications": ["Asprin"],
+			"health_issues": ["Congential Heart Defect"]
+		},
+		{
+			"id": "3",
+			"name": "Sarah Clarke",
+			"relationship": {
+				"title": "Wife",
+				"phone": "000000000",
+				"email": "sarahclarke@example.com"
+			},
+			"doctors": {
+				"primaryCarePhysician": "Dr. Bruce (lgi)",
+				"specialist": "Dr. Jean (LGI)"
+			},
+			"medications": ["Metformin", "Lisinopril"],
+			"health_issues": ["Diabetes"]
+		}
+	]
+}
